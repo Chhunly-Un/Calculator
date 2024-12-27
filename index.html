@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="calculator">
+         <input id="display" readonly>
+         <div id="keys">
+            <button onclick="clickMe('+')" class="operatorBtn">+</button>
+            <button onclick="clickMe('7')">7</button>
+            <button onclick="clickMe('8')">8</button>
+            <button onclick="clickMe('9')">9</button>
+            <button onclick="clickMe('-')" class="operatorBtn">-</button>
+            <button onclick="clickMe('4')">4</button>
+            <button onclick="clickMe('5')">5</button>
+            <button onclick="clickMe('6')">6</button>
+            <button onclick="clickMe('*')" class="operatorBtn">*</button>
+            <button onclick="clickMe('3')">3</button>
+            <button onclick="clickMe('2')">2</button>
+            <button onclick="clickMe('1')">1</button>
+            <button onclick="clickMe('/')" class="operatorBtn">/</button>
+            <button onclick="clickMe('0')">0</button>
+            <button onclick="clickMe('.')">.</button>
+            <button onclick="calculator()">=</button>
+            <button onclick="clearDisplay()" class="operatorBtn">C</button>
+            <button onclick="deleteLast()" class="operatorBtn">D</button>
+         </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
